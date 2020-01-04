@@ -1,4 +1,4 @@
-## common patterns
+## Common patterns
 
 the   ing   tion   est   and   int   ship   nth   ear   ore
 
@@ -8,7 +8,7 @@ own   ill   son   ink   rea   eed   ast   you   utt   ity
 
 dis   app  ous   ment
 
-## tricky words
+## Tricky words
 
 It's Its
 
@@ -76,15 +76,8 @@ through thorough
 * 397 Practice - and =
 * 414-418 symbols
 
-## user words
+## User words
 
 **except**	**blame**	**crowded**	**When**	**symbols**	
 
 **for**  
-
-
-
-$x$ test
-$$
-\boldsymbol{x}
-$$
