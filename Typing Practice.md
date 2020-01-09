@@ -6,7 +6,7 @@ eal   ate   ted   one   ame   tor   ine   ave   ound   age
 
 own   ill   son   ink   rea   eed   ast   you   utt   ity 
 
-dis   app  ous   ment
+dis   app  ous   ment  ough
 
 ## Tricky words
 
