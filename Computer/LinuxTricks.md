@@ -20,7 +20,7 @@ shPath=$(cd $(dirname $0); pwd)
   
   ```bash
   #!/bin/bash
-echo $0
+  echo $0
   ```
   
   在terminal中运行效果：
