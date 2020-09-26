@@ -35,7 +35,45 @@ echo $0
   
 * 所以要得到绝对路径需要首先`cd`到目录下然后`pwd`输出绝对路径，如果直接使用`shPath=$(pwd)`则会返回调用`test.sh`脚本的工作目录，导致出错。
 
-## topic
+## 统计当前文件夹下文件或者目录个数
+
+```bash
+ls -l |grep "^-"|wc -l   #文件
+ls -l ./|grep "^d"|wc -l   #目录
+```
 
 
+
+## `scp`命令中断并继续传文件，关闭terminal也能继续
+
+```bash
+scp -P XXX [source] [destination]
+Ctrl+z
+disown -h %1
+bg
+```
+
+
+
+## 删除空文件夹
+
+```bash
+rmdir *
+```
+
+
+
+## 统计文件夹大小
+
+* `ls -ll`(以byte为单位)或`ls -lh`（以KB或MB为单位），缺点是只能查看文件大小，若是文件夹只会显示文件夹的大小。
+
+* 使用`du`命令
+
+  ```
+  du -sh  				#统计总和以kb, Mb,Gb形式
+  du -sl  				#统计总和显示byte
+  du -h -max-depth=1 *  	#统计当前
+  ```
+
+  
 

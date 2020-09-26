@@ -1,12 +1,12 @@
 ## Common patterns
 
-the   ing   tion   est   and   int   ship   nth   ear   ore
+ment  est   ink   own  the   ing   tion   and   int   ship   nth   ear   ore
 
 eal   ate   ted   one   ame   tor   ine   ave   ound   age 
 
-own   ill   son   ink   rea   eed   ast   you   utt   ity 
+ ill   son  rea   eed   ast   you   utt   ity 
 
-dis   app  ous   ment  ough
+dis   app  ous   ough
 
 ## Tricky words
 
@@ -80,4 +80,4 @@ through thorough
 
 **except**	**blame**	**crowded**	**When**	**symbols**	
 
-**for**  **research** 
+**for**  **research** **unknown**  **addresses** 
