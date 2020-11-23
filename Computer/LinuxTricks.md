@@ -77,3 +77,8 @@ rmdir *
 
   
 
+## PBS作业管理
+
+* `qsub`提交任务
+* `qstat`查询任务
+* `qdel`删除特定ID的任务
