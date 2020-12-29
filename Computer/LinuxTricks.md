@@ -82,3 +82,41 @@ rmdir *
 * `qsub`提交任务
 * `qstat`查询任务
 * `qdel`删除特定ID的任务
+
+
+
+## ls返回值存放到一个数组中
+
+* ```shell
+  count=0
+  for file in $(ls)
+  do
+    filelist[$c]=$file
+    count=`expr $c + 1`
+  done
+  ```
+
+* 数组的创建，使用括号：
+
+  ```shell
+  arr=(1 2 3 4 5)
+  ```
+
+  数组的下标使用中括号，配合大括号取变量：
+
+  ```shell
+  zqj@Y9000X:~$ echo ${arr[0]}
+  1
+  ```
+
+
+
+## 删除旧的公钥
+
+服务器地址变更，原有的RSA无法认证，删除
+
+* ```shell
+  ssh-keygen  -R "[ip]:port"
+  ```
+
+  
