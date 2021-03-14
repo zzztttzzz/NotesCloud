@@ -368,7 +368,7 @@
 
   写两个constructor，分别针对不同的初始化情况。
 
-* 另外就是使用memory initializer lists：
+* 另外就是使用member initializer lists：
 
   ```c++
   class Entity
